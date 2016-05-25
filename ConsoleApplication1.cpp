@@ -9,10 +9,13 @@ using namespace std;
 #define PI acos(-1)
 int dots[2010][2010];
 vector<double> target;
+
+
 struct point
 {
 	int x, y;
 };
+
 struct Circle
 {
 	point center;
